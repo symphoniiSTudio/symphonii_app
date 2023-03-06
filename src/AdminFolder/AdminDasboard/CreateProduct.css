@@ -1,0 +1,33 @@
+.cratbody {
+  width: 90%;
+  margin: auto auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.ani-enu {
+  padding: 2rem;
+  text-align: center;
+  box-shadow: -2px 3px 9px 0px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: -2px 3px 9px 0px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: -2px 3px 9px 0px rgba(0, 0, 0, 0.36);
+}
+.ani-enu:hover {
+  background-color: aliceblue;
+  cursor:pointer;
+}
+
+.creamain{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 60vh;
+}
+
+.headerproduct{
+  text-align: center;
+  padding: 2rem;
+  text-transform: capitalize;
+  font-weight: 700;
+}

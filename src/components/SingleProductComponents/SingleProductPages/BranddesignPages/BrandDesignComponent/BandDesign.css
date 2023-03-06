@@ -1,0 +1,173 @@
+.animationBriefAnimation {
+    width: 100%;
+    background-color: #111111;
+    color: white;
+  }
+  
+  .thebrifesection {
+    text-align: center;
+    padding: 5rem;
+    width: 80%;
+    margin: auto auto;
+  }
+  
+  .thebrifesection h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 2rem 0 1rem 0;
+    text-transform: uppercase;
+  }
+  
+  .thebrifesection p {
+    font-size: 1rem;
+    padding: 2rem 0;
+  }
+  
+  .thebrifesection button {
+    padding: 1rem 2rem;
+    border: 1px solid #ed1846;
+    background-color: #111111;
+    text-transform: capitalize;
+    color: white;
+  }
+  
+  .thebrifesection a {
+    text-align: none;
+    color: white;
+  }
+  
+  .briefbutton:hover {
+    background-color: #ed1846;
+    color: white;
+    border: 1px solid #ed1846;
+    transition: ease-in-out 2s infinite;
+  }
+  
+  .finallproduct {
+    text-align: center;
+    width: 100%;
+    padding: 3rem 0;
+  }
+  
+  .finallproduct h1{
+      text-transform: uppercase;
+      padding: 1rem;
+  }
+  
+  .productstagesample {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem 1rem;
+  }
+  
+  .setch h4{
+      padding: 1rem 0 0.2rem 0;
+      width: 100%;
+      text-transform: uppercase;
+  }
+  
+  .setch:hover h4{
+    border-bottom: #ed1846 1px solid;
+  
+  }
+  .setch:hover{
+      background-color: #3e3e3f;
+    }
+  .setch{
+    background-color: #ed1846;
+    cursor: pointer;
+  }
+  
+  .setch img {
+    height: 60vh;
+    width: 100%;
+  }
+  
+  .producttestimony{
+     display: flex; 
+     justify-content: center;
+     max-width: 40%;
+     margin: auto auto;
+  }
+  
+  .textimagedetais{
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      padding-bottom: 2rem;
+  
+      
+  }
+  
+  .producttestimonybody h1{
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bolder;
+      padding: 2rem;
+  }
+  
+  .textareatestimony{
+      padding: 1rem 0 2rem 0;
+  }
+  .aboutimagesie{
+      padding: 0 0 2rem 2rem;
+  }
+  
+  .imagetestside img{
+      height: 20vh;
+      width: 20vh;
+      border-radius: 50px;
+  }
+  
+  .carryallfeedback{
+      padding: 1rem;
+      margin: 0 0 1rem 0;
+  }
+  
+  .carryallfeedback:hover{
+      background-color: #3e3e3f;
+  }
+  
+  
+  @media screen and (max-width: 920px) {
+      .productstagesample {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+        }
+  
+        .thebrifesection button {
+          padding: 1rem 2rem;
+          display: block;
+        }
+  
+        .thebrifesection {
+          
+          padding: 5rem;
+          width: 90%;
+          margin: auto auto;
+        }
+        
+        .producttestimony{
+       
+          max-width: 70%;
+         
+       }
+  }
+  
+  
+  
+  @media screen and (max-width: 450px) {
+      .thebrifesection {
+          text-align: center;
+          padding: 3rem;
+          width: 95%;
+          margin: auto auto;
+          max-width: 90%;
+  
+        }
+  
+        .producttestimonybody h1{
+            font-size: 1rem;
+        }
+  }

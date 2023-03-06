@@ -1,0 +1,17 @@
+.aspiner{
+    width: 100%;
+   
+  
+  }
+  
+  .symphoniiicone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .symphoniiicone p{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    
+  }

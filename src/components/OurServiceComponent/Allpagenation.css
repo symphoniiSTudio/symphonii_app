@@ -1,0 +1,194 @@
+.Appmain {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+
+  }
+  
+  .userservice {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #b3e3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    margin: 0 0 20px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  .servicetitle1{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+
+  .servicetitle1:hover{
+    border-bottom: 2px solid #3e3e3f;
+  }
+
+  .servicesdiscription{
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 1.5rem;
+    text-transform: capitalize;
+  }
+
+  .PagnationDiv{
+      text-align: center;
+      padding: 4rem;
+  }
+
+  .userservice img{
+      object-fit: cover
+  }
+  
+  .paginationBttns {
+    width: 80%;
+    max-width: 100%;
+    margin: auto auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  
+  .paginationBttns a {
+    padding: 1.5rem 1.8rem;
+    margin: 0.2rem;
+    border: 1px solid #ed1846;
+    color: whitesmoke;
+    cursor: pointer;
+  }
+  
+  .paginationBttns a:hover {
+    color: white;
+    background-color: #ed1846;
+  }
+  
+  .paginationActive a {
+    color: white;
+    background-color: #ed1846 ;
+  }
+  
+  .paginationDisabled a {
+    color: white;
+    
+  }
+
+  .previousBttn{
+    display: none;
+  }
+
+  .nextBttn{
+    display: none;
+  }
+
+
+  .container4 {
+    position: relative;
+    width: 100%;
+  }
+  
+  .serviceimage {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .servicetitle{
+    height: 100vh;
+    background-color: #3e3e3f3c;
+  }
+  
+  .overlayservice {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ed1846b1;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container4:hover .overlayservice {
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  
+  @media screen and (max-width: 992px) {
+    .Appmain {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+      
+    }
+  }
+
+
+    
+  @media screen and (max-width: 620px) {
+    .Appmain {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+      
+    }
+    .serviceimage {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-position: center top;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .servicetitle{
+      height: 80vh;
+      background-color: #3e3e3f3c;
+    }
+
+    .paginationBttns {
+        width: 60%;
+        max-width: 100%;
+        margin: auto auto;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        color: white;
+      }
+      
+      .paginationBttns a {
+        padding: 1.2rem;
+        margin: 0.4rem;
+        border-radius: 5px;
+        border: 1px solid #ed1846;
+        color: whitesmoke;
+        cursor: pointer;
+      }
+  }
+
+  

@@ -1,0 +1,274 @@
+
+  .quotemain{
+      width: 100%;
+      background-color: #111111;
+  }
+  .container1{
+      width: 100%;
+  }
+
+  .content{
+      width: 100%;
+  }
+.container1 {
+  width: 100%; 
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 1rem;
+
+
+ 
+}
+
+.homereact{
+  padding: 0.5rem;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  
+  
+}
+
+.content a {
+  text-decoration: none;
+  color: white;
+}
+
+.content:hover p {
+  display: none;
+}
+
+.content .content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay {
+  opacity: 1;
+}
+
+.content-image {
+  width: 100%;
+  background-position: center 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: fill;
+}
+
+.contentbackgount {
+  background-color: #3e3e3e74;
+  height: 90vh;
+}
+
+.contentbackgount p{
+  text-transform: capitalize;
+}
+
+.content-image p {
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform:capitalize;
+  text-align: center;
+  padding: 1rem;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.content-details {
+  position: absolute;
+  text-align: left;
+  padding-left: 1.3em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1.5;
+}
+
+
+.content-details h3 {
+  color: #fff;
+  font-weight: 500;
+ padding-bottom: 0.3rem;
+  margin-bottom: 0.5em;
+  text-transform:capitalize;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.line {
+  width: 104px;
+  margin: auto 0;
+  border-bottom: 2px solid #ed1846;
+  opacity: 0;
+ 
+}
+
+
+.line1 {
+  width: 104px;
+  margin: auto 0;
+  border-bottom: 2px solid #ed1846;
+  opacity: 1;
+ 
+}
+
+.content-details:hover .line{
+    opacity: 1;
+    transition: opacity 2s linear;
+    -webkit-transition: opacity 2s linear;
+    -moz-transition: opacity 2s linear;
+    -o-transition: opacity 2s linear;
+    width: 104px;
+    margin: auto 0;
+
+    
+}
+
+.line1 {
+  width: 104px;
+  margin:  auto auto;
+  border-bottom: 2px solid #ed1846;
+  opacity: 0;
+ 
+}
+
+.content-details:hover .line1{
+    opacity: 1;
+    transition: opacity 2s linear;
+    -webkit-transition: opacity 2s linear;
+    -moz-transition: opacity 2s linear;
+    -o-transition: opacity 2s linear;
+    width: 104px;
+    margin: auto 0;
+   
+}
+
+
+
+.content-details p {
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.listiem {
+    list-style-type: none;
+    font-weight: 400;
+    text-transform: capitalize;
+    opacity: 0;
+    columns: white;
+    padding: 1rem 0;
+
+}
+
+.content-details:hover .listiem {
+    opacity: 1;
+    transition: opacity 1s linear;
+    -webkit-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    top: 80%;
+    color: white;
+    width: 80%;
+}
+
+
+.comic, .design , .vector, .cartoon {
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
+  padding-left: 0.7em;
+  font-size: 1rem;
+  display: flex;
+  text-align: center;
+}
+
+
+.comic:hover{
+    background-color: #ed1846;
+    color: white;
+  
+   
+}
+.design:hover{
+    background-color: #ed1846;
+    color: white;
+}
+
+.vector:hover{
+    background-color: #ed1846;
+    color: white;
+}
+
+.cartoon:hover{
+    background-color: #ed1846;
+    color: white;
+}
+
+
+.fadeIn-bottom {
+  top: 80%;
+}
+
+.fadeIn-right {
+  right: 20%;
+}
+.fadeIn-left {
+  left: 80%;
+}
+
+@media screen and (max-width: 992px) {
+    .container1 {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+   
+    
+    .content-details:hover .line{
+        opacity: 1;
+        transition: opacity 2s linear;
+        -webkit-transition: opacity 2s linear;
+        -moz-transition: opacity 2s linear;
+        -o-transition: opacity 2s linear;
+        width: 20%;
+       
+    }
+    
+ 
+    
+    .content-details:hover .line1{
+        opacity: 1;
+        transition: opacity 2s linear;
+        -webkit-transition: opacity 2s linear;
+        -moz-transition: opacity 2s linear;
+        -o-transition: opacity 2s linear;
+        width: 20%;
+    }
+    
+  }

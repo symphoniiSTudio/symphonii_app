@@ -1,0 +1,194 @@
+[
+    {
+        "id": 2,
+        "image": "/img/LLT.jpg",
+        "title": "LOGOS",
+        "path": "/brandDesign_11222",
+        "discription": " (Click to read More...) "
+    },
+    {
+        "id": 2,
+        "image": "/img/oldw7.jpg",
+        "title": "Mrs. Abejide",
+        "path": "/oldwoman",
+        "discription": "Mrs. Abejide is recently bereaved of her husband and is striving to keep the family business afloat. (Click to read More...) "
+    },
+    {
+        "id": 2,
+        "image": "/img/241.jpg",
+        "title": "Amanda",
+        "path": "/amanda",
+        "discription": "Amanda is a fashion designer who is trying to put her name and brand on the map. (Click to read More...) "
+    },
+    {
+        "id": 2,
+        "image": "/img/manp.jpg",
+        "title": "Thompson",
+        "path": "/thompson",
+        "discription": "Thompson signed up for the super soldier program of the West African Joint military (W.A.J.M) after losing his family to an extra terrestestial alien threat on the continent. (Click to read More...) "
+    },
+    {
+        "id": 2,
+        "image": "/img/boy22.jpg",
+        "title": "Chume",
+        "path": "/chume",
+        "discription": "Chume is a bright boy with an unusual talent in music. After his parents died in a car accident which left him as the sole survivor. (Click to read More...) "
+    },
+    {
+        "id": 2,
+        "image": "/img/mascot1.jpg",
+        "title": " Symphonii Mascot",
+        "path": "/mascot",
+        "discription": "Check out our Mascot. (Click to see More...) "
+    },
+    {
+        "id": 2,
+        "image": "/img/man4.jpg",
+        "title": "Amanoukha",
+        "path": "/Amanoukha",
+        "discription": "Amanoukha is an old god trapped in a human body and forced to live in modern society.(Click to read More...) "
+    },
+    {
+        "id": 1,
+        "image": "/img/LLT.jpg",
+        "title": "LOGOS",
+        "path": "/brandDesign_11222",
+        "discription": "SEE MORE"
+    },
+    {
+        "id": 1,
+        "image": "/img/FL1.jpg",
+        "title": "FLIERS",
+        "path": "/fier",
+        "discription": "SEE MORE"
+    },
+    {
+        "id": 1,
+        "image": "/img/BC1.jpg",
+        "title": "BUSINESS CARD",
+        "path": "/business_card",
+        "discription": "SEE MORE"
+    },
+    {
+        "id": 1,
+        "image": "/img/PD1.jpg",
+        "title": "PRODUCT DESIGNS",
+        "path": "/business_card",
+        "discription": "SEE MORE"
+    },
+    {
+        "id": 1,
+        "image": "/img/MCA1.jpg",
+        "title": "MUSIC COVER ART",
+        "path": "/music_cover_art",
+        "discription": "SEE MORE"
+    },
+    {
+        "id": 1,
+        "image": "/img/WD1.jpg",
+        "title": "WEDDING DESIGNS",
+        "path": "/weeding_design",
+        "discription": "SEE MORE"
+    },
+    {
+        "id": 1,
+        "image": "/img/VA1.jpg",
+        "title": "VECTOR DESIGNS",
+        "path": "/vector_design",
+        "discription": "SEE MORE"
+    },
+    {
+        "id": 1,
+        "image": "/img/vh12.jpg",
+        "title": "VIDEOHOTO|SHOPPING|PHOTOGRAPHY|VIDEOS|E-COMMERCE",
+        "path": "/e-commerce",
+        "discription": "Check me out "
+    },
+    
+    {
+        "id": 1,
+        "image": "/img/anima3.png",
+        "title": "YMCA",
+        "path": "/ymce",
+        "discription": "Check me out "
+    },
+    {
+        "id": 1,
+        "image": "/img/TA.jpg",
+        "title": "AMAGODA",
+        "path": "/AMAGODA",
+        "discription": "Check me out "
+    },
+    {
+        "id": 1,
+        "image": "/img/THC.jpg",
+        "title": "CAR POOLING",
+        "path": "/car_pooling",
+        "discription": "Check me out "
+    },
+    {
+        "id": 1,
+        "image": "/img/j21.jpg",
+        "title": "JIFFTWINS|ANTICPATION FOR CHRITSMAS",
+        "path": "/jifftwins",
+        "discription": "Check me out "
+    },
+    
+    {
+        "id": 1,
+        "image": "/img/li1.jpg",
+        "title": "LITTLE TEAPOT|NURSERY RYHMES AND LULLABIES FOR KIDS|FUN TIME",
+        "path": "/little_pot",
+        "discription": "Check me out "
+    },
+    {
+        "id": 1,
+        "image": "/img/BLD1.jpg",
+        "title": "TIMMYBLANCO|CAKES|ORDERS",
+        "path": "/cakes",
+        "discription": "Check me out "
+    },
+    {
+        "id": 1,
+        "image": "/img/papa2.jpg",
+        "title": "PAPARAP|NURSERY RYHMES|KIDS TIME",
+        "path": "/paparap",
+        "discription": "Check me out "
+    },
+   
+    {
+        "id": 2,
+        "image": "/img/mascot1.jpg",
+        "title": " Symphonii Mascot",
+        "path": "/mascot",
+        "discription": "Check out our Mascot. (Click to see More...) "
+    },
+    {
+        "id": 1,
+        "image": "/img/BC1.jpg",
+        "title": "BUSINESS CARDS",
+        "path": "/business_card",
+        "discription": "SEE MORE"
+    },
+    {
+        "id": 1,
+        "image": "/img/PD1.jpg",
+        "title": "PRODUCT DESIGNS",
+        "path": "/business_card",
+        "discription": "SEE MORE"
+    },
+    {
+        "id": 1,
+        "image": "/img/MCA1.jpg",
+        "title": "MUSIC COVER ART",
+        "path": "/music_cover_art",
+        "discription": "SEE MORE"
+    },
+    {
+        "id": 1,
+        "image": "/img/WD1.jpg",
+        "title": "WEEDING DESIGNS",
+        "path": "/weeding_design",
+        "discription": "SEE MORE"
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "id": 1,
+        "image": "/img/LLT.jpg",
+        "title": "LOGOS",
+        "path": "/brandDesign_11222",
+        "discription": "SEE MORE"
+    },
+
+    {
+        "id": 1,
+        "image": "/img/FL1.jpg",
+        "title": "FLIERS",
+        "path": "/fier",
+        "discription": "SEE MORE"
+    },
+
+    {
+        "id": 1,
+        "image": "/img/BC1.jpg",
+        "title": "BUSINESS CARDS",
+        "path": "/business_card",
+        "discription": "SEE MORE"
+    }, 
+
+    
+    {
+        "id": 1,
+        "image": "/img/PD1.jpg",
+        "title": "PRODUCT DESIGNS",
+        "path": "/product_design",
+        "discription": "SEE MORE"
+    },
+
+    {
+        "id": 1,
+        "image": "/img/MCA1.jpg",
+        "title": "MUSIC COVER ART",
+        "path": "/music_cover_art",
+        "discription": "SEE MORE"
+    },
+    {
+        "id": 1,
+        "image": "/img/WD1.jpg",
+        "title": "WEDDING DESIGN",
+        "path": "/weeding_design",
+        "discription": "SEE MORE"
+    },
+
+    {
+        "id": 1,
+        "image": "/img/VA1.jpg",
+        "title": "VECTOR DESIGNS",
+        "path": "/vector_design",
+        "discription": "SEE MORE"
+    }
+
+    
+
+]

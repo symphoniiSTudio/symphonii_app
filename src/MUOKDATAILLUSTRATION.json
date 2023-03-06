@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "image": "/img/man5.jpg",
+        "title": "Amanoukha",
+        "path": "/Amanoukha",
+        "discription": "Amanoukha is an old god trapped in a human body and forced to live in modern society (click to read more)"
+    },
+
+    
+    {
+        "id": 1,
+        "image": "/img/oldw7.jpg",
+        "title": "Mrs. Abejide",
+        "path": "/oldwoman",
+        "discription": "Mrs. Abejide is recently bereaved of her husband and is striving to keep the family business afloat. (click to read more)"
+    },
+   
+    {
+        "id": 1,
+        "image": "/img/young3.jpg",
+        "title": "Amanda",
+        "path": "/amanda",
+        "discription": "Amanda is a fashion designer who is trying to put her name and brand on the map(click to read more)"
+    },
+
+    {
+        "id": 2,
+        "image": "/img/manp.jpg",
+        "title": "Thompson",
+        "path": "/thompson",
+        "discription": "Thompson signed up for the super soldier program of the West African Joint military (W.A.J.M) after losing his family to an extra terrestestial alien threat on the continent. (Click to read More...) "
+    },
+    {
+        "id": 2,
+        "image": "/img/boy22.jpg",
+        "title": "Chume",
+        "path": "/chume",
+        "discription": "Chume is a bright boy with an unusual talent in music. After his parents died in a car accident which left him as the sole survivor. (Click to read More...) "
+    }, 
+    {
+        "id": 2,
+        "image": "/img/mascot1.jpg",
+        "title": " Symphonii Mascot",
+        "path": "/mascot",
+        "discription": "Check out our Mascot. (Click to see More...) "
+    }
+   
+   
+] 

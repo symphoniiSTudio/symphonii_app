@@ -1,0 +1,172 @@
+/* {grad parent div} this the background image */
+.bannercontainer11{
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.bannercontainer1111{
+    background-position:center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.allheader{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #1d1d1d;
+    color: white;
+    font-weight: bolder;
+    font-size: 7rem;
+    padding: 2rem 0 0 0;
+}
+
+.allheader p{
+padding: 0 !important;
+margin: 0 !important;
+}
+
+
+.bannercontainer111{
+    background-position:center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.b111{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bd11{
+   
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* position: absolute;
+    top: 0;
+    z-index: 10px; */
+}
+
+.bd11 p{
+    font-size: 7rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    margin-top: 9rem;
+    /* position: absolute;
+    top: 0;
+    z-index: 10px; */
+}
+.bd111 p{
+    font-size: 7rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top:  4.5rem;
+    font-weight: 700;
+    color: white;
+    /* position: absolute;
+    top: 0;
+    z-index: 10px; */
+}
+
+@media screen and (max-width: 992px) {
+    .bannercontainer11{
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover ;
+      
+    }
+
+    .bd11{
+      
+        height: 60vh;
+
+    }
+    .bd111 p{
+        font-size: 4rem;
+        padding-top:  2rem;
+       
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .bd11 p{
+      
+        font-size: 6rem;
+        color: white;
+        padding-top: 2rem;
+    }
+    .bd111 p{
+        font-size: 3.5rem;
+        padding-top:  1.5rem;
+       
+    }
+
+    .allheader{
+        
+        font-size: 4rem;
+    
+    }
+
+}
+    
+    
+    @media screen and (max-width: 602px) {
+     
+        .allheader{
+        
+            font-size: 3rem;
+        
+        }
+        }
+    
+
+@media screen and (max-width: 530px) {
+    .bd11 p{
+      
+        font-size: 4rem;
+        color: white;
+        padding-top: 1rem;
+    }
+    .bd111 p{
+        font-size: 3.5rem;
+        padding-top:  1.4rem;
+       
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .bd11 p{
+        font-size: 3rem;
+        color: white;
+
+    }
+    .bd111 p{
+        font-size: 2.7rem;
+        padding-top:  1.1rem;
+       
+    }
+
+    .bannercontainer11{
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bannercontainer1111{
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+
+}

@@ -1,0 +1,66 @@
+.imageGalary{
+  background-color: #111111;
+  color: white;
+ 
+
+}
+
+.disimame{
+  width: 60%;
+  margin:  auto auto;
+}
+
+.disimame{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.imageGalary1{
+  display: none;
+}
+
+.imageGalary2{
+  display: none;
+}
+
+.imaagePic{
+  width: 70%;
+  margin:  auto auto;
+}
+
+@media screen and (max-width: 802px) {
+ 
+  .disimame{
+    width: 80%;
+    margin:  auto auto;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+ 
+  .disimame{
+    width: 90%;
+    margin:  auto auto;
+    
+  }
+
+  .disimame{
+    padding: 0rem;
+  }
+  
+
+}
+
+
+@media screen and (max-width: 650px) {
+ 
+  .disimame{
+    width: 100%;
+    margin:  auto auto;
+  }
+
+}

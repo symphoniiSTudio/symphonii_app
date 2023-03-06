@@ -1,0 +1,142 @@
+/* {grad parent div} this the background image */
+.bannercontainer1111{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+   
+}
+.newbd11{
+  height: 70vh;  
+}
+
+.textare{
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.bannercontainer0111{
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.allheader{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #1d1d1d;
+    color: white;
+    font-weight: bolder;
+    font-size: 5rem;
+    padding: 2rem 0 0 0;
+}
+
+.allheader p{
+padding: 0 !important;
+margin: 0 !important;
+}
+/* 
+i remove the position absolute becouse, if i make parent div absolute.. it will not show again */
+.bd11{
+  
+    padding-bottom: 2rem;
+}
+.bannermain{
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.bannermain{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    max-width: 80%;
+    margin: auto auto;
+    font-weight: bolder;
+    padding: 3rem;
+    height: 80vh;
+    color: white;
+
+}
+
+.seepeople{
+    text-align: center;
+    padding: 7px;
+    border: 1px solid #ed1846;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: white;
+    width: fit-content;
+    margin:  auto auto;
+}
+
+.bd:hover .seepeople{
+    display: block;
+    background-color: #ed1846;
+    border: 1px solid white;
+    transition: ease-in 1s ;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: white;
+    width: fit-content;
+    margin:  auto auto;
+    padding: 7px;
+    
+}
+
+@media screen and (max-width: 992px) {
+    .bannermain{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        font-weight: bolder;
+        text-transform: uppercase;
+        padding-top: 3rem;
+        width: 100%;
+    
+    }
+
+    .bannermain p{
+        padding-top: 3rem;
+    }
+
+}
+
+
+@media screen and (max-width: 602px) {
+ 
+.allheader{
+
+    font-size: 4rem;
+
+}
+}
+
+
+
+@media screen and (max-width: 602px) {
+ 
+    .allheader{
+    
+        font-size: 3rem;
+    
+    }
+
+    .newbd11{
+        height: 40vh;  
+      }
+    }
+
+
+    @media screen and (max-width: 400px) {
+ 
+        .newbd11{
+            height: 30vh;  
+          }
+        }
+
+
+   

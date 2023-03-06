@@ -1,0 +1,27 @@
+.contactusdive{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 2rem;
+
+}
+
+.headercontact{
+    text-align: center;
+    padding: 2rem;
+    background-color: #3e3e3d;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+    border-top: 1px solid white;
+}
+
+@media screen and (max-width: 900px) {
+    .contactusdive{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        
+    }
+
+}

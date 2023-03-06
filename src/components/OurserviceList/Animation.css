@@ -1,0 +1,153 @@
+.aboutanimation{
+    width: 100%;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.aboutanimationherder{
+   
+}
+
+.bannercontainer1111c{
+    display: none;
+}
+
+.iconlistedica{
+    font-size: 2rem;
+    padding: 1rem  3rem;
+}
+
+.bd111q{
+    font-size: 7rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top:  4.5rem;
+    font-weight: 700;
+    color: white;
+  line-height: 1;
+
+}
+
+.imaesecion{
+    max-height: 150vh;
+}
+
+.textfd{
+    text-transform: capitalize;
+}
+
+.caarryboryse{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+
+.iconlistedica a{
+    text-decoration: none;
+    color: white;
+}
+
+.aboutanimationbody{
+    background-color: #111111ee;
+    width: 100%;
+}
+
+.aboutanimationherder{
+    text-align: start;
+    font-size: 1rem;
+    padding: 3rem 1.5rem 1rem 1.5rem;
+    width: 70%;
+    margin:  auto auto;
+
+}
+.detatilsanimaion{
+    padding: 0rem 2rem 0rem 2rem ;
+}
+.anidetails1 h1{
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 2rem 0 1rem 0;
+    color: #ed1846;
+}
+
+
+.anidetails1{
+    font-weight: lighter;
+    padding-bottom: 1rem;
+
+}
+
+.anidetails1 img{
+    height: 50vh;
+    width: 90%;
+    margin: auto auto;
+}
+
+.detatilsanimaion button{
+    padding: 1rem 2rem;
+    background-color: #ed1846;
+    border: none;
+    color: white;
+    display: block;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.buttonaass:hover {
+    background-color: #3e3e3f;
+}
+
+
+@media screen and (max-width: 870px) {
+
+    .detatilsanimaion{
+    
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .buttonaass{
+     margin:  3rem 0;
+    }
+
+    .aboutanimationherder{
+        font-size: 1rem;
+        height: fit-content;
+        width: 95%;
+        margin:  auto auto;
+    }
+
+    .caarryboryse{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .bd111q p{
+        font-size: 2.5rem;
+        padding-top:  1.4rem;
+       
+    }
+
+    .bannercontainer1111{
+       display: none;
+        
+    }
+
+    .bannercontainer1111c{
+        display: block;
+        background-position:center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        
+    }
+  
+}
+
+
+
+

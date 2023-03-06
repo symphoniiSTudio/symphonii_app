@@ -1,0 +1,308 @@
+.line {
+    width: 104px;
+    margin:  auto 0;
+    border-bottom: 2px solid #ed1846;
+    opacity: 1;
+  }
+
+  .introcontainer{
+    width: 100%;
+  }
+ 
+
+  .intromain{
+   background-color: #111111;
+   width: 100%;
+  }
+
+  .aaaa{
+    text-decoration: none;
+    color: white;
+    margin-top: 2rem;
+    
+  }
+
+
+
+  .gridhomes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3e3e3f;
+    
+    
+  }
+
+  .homelinkabout{
+    width: 100%;
+    columns: rgb(49, 40, 40);
+    text-align: center;
+    border-right: 1.5px solid white;
+    border-top: 2px solid white;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+  }
+
+  .homelinkabout a{
+      text-decoration: none;
+      color: white;
+  }
+
+  .aboutinside span, .serviceisidde span{
+    font-weight: bolder;
+  }
+
+  .aboutinside p, .serviceisidde p{
+    display: none;
+  }
+
+  .homelinkabout:hover .aboutinside p, .homelinkservices:hover .serviceisidde p{
+    display: block;
+  }
+
+  .serviceisidde a{
+    color: white;
+  }
+
+  
+  .homelinkabout:hover , .homelinkservices:hover {
+    background-color: #ed1846;
+  }
+
+  .homelinkabout:hover {
+    border: 3px solid white;
+   
+  }
+
+  .homelinkservices:hover {
+    border: 3px solid white;
+    
+  }
+
+
+  .homelinkservices a{
+    text-decoration: none;
+    color: white;
+}
+
+.serviceisidde{
+  text-align: center;
+  
+}
+
+.aboutinside{
+  text-decoration: none;
+  color: white;
+}
+
+  .homelinkservices{
+    width: 100%;
+    columns: white;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1.5px solid white;
+    border-top: 2px solid white;
+  }
+
+  .introimage{
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+  }
+
+  .introtitle h1{
+      font-size:7rem;
+      font-weight:bolder;
+      font-family: 'Roboto Condensed', sans-serif;
+      color: white;
+      text-transform: uppercase;
+  }
+
+  .introtitle h4{
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #ed1846;
+    font-size: 2rem;
+    
+  }
+  .intodetails{
+    text-align: start;
+    background-color: #111111;
+    margin:  auto auto;
+    width: 85%;
+    padding: 5rem 1rem;
+    color: white;
+
+  }
+
+  .intodetails p{
+    
+    font-weight: 200;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-bottom: 2rem;
+
+     
+  }
+
+  .line11 {
+    width: 40px;
+    margin:  auto 0;
+    border-bottom: 2px solid #ed1846;
+    opacity: 1;
+   display: flex;
+   justify-content: center;
+  }
+
+  .introimage img{
+      height: 100vh;
+      width: 100%;
+  }
+
+  .intodetails img{
+      height: 2.5rem;
+  }
+
+  @media screen and (max-width: 992px) {
+    .introbody {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+        
+    }
+
+    .introtitle h1{
+      font-size: 5rem;
+
+  }
+
+
+    .introimage img{
+      height: 70vh;
+      width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+  .introbody {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      
+      
+  }
+
+  .introimage{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .introimage img{
+    height: 50vh;
+    width: 100%;
+}
+
+.introtitle h4{
+  font-size: 1.2rem;
+ 
+}
+
+
+.intodetails p{
+
+  font-size: 1rem;
+
+ 
+  
+}
+
+
+
+
+}
+
+@media screen and (max-width: 500px) {
+  .gridhomes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3e3e3f;
+     
+  }
+
+
+  .homelinkabout:hover {
+    border: 3px solid white;
+   
+  }
+
+
+  .intodetails{
+    text-align: start;
+    width: 90%;
+    background-color: #111111;
+    margin:  auto auto;
+    padding: 3rem 1rem;
+    color: white;
+  }
+
+  .introtitle h4{
+    font-size: 1rem;
+   
+  }
+
+  .introtitle h1{
+    font-size: 3rem;
+
+}
+
+
+  .homelinkservices:hover {
+    border: 3px solid white;
+    
+  }
+
+
+}
+
+@media screen and (max-width: 300px) {
+
+
+  .homelinkabout:hover .aboutinside{
+    border: none;
+  }
+
+  .homelinkservices:hover .serviceisidde{
+    border: none;
+  }
+
+
+
+
+  .introtitle h1{
+    font-size: 1rem;
+
+}
+
+
+  .serviceisidde h2{
+    font-size:1.5rem;
+  }
+
+  
+  .aboutinside p, .serviceisidde p{
+    display: block;
+  }
+
+  .homelinkabout:hover .aboutinside p, .homelinkservices:hover .serviceisidde p{
+    display:inline-block;
+    width: 100%;
+  }
+
+}

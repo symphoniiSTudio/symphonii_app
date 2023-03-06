@@ -1,0 +1,18 @@
+.welcome1{
+  background-color: #444444;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  height: 100vh;
+}
+
+.indv img{
+  height: 20vh;
+}
+
+.welcomeparent a{
+  color: #ed1846;
+}
+.welcomeparent p{
+  color: green;
+}

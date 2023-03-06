@@ -1,0 +1,138 @@
+
+.mediahight1{
+  display: none;
+} 
+
+.carousel-caption {
+  position: absolute;
+  top: 22% !important;
+  bottom: 1.25rem;
+  left: 7% !important;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+
+.carousel-caption h3{
+text-align: left !important;
+text-transform: uppercase !important;
+font-weight: 700 !important;
+line-height: normal !important;
+font-size: 2rem;
+max-width: 60%;
+
+
+}
+
+.carousel-caption p{
+  text-align: left !important;
+  text-transform: capitalize !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+  font-size: 1rem;
+  max-width: 60%;
+  
+  
+  }
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: none !important;
+ 
+}
+
+.carousel-caption > .cotadvaa{
+text-align: left;
+}
+ 
+.cotadvaa button{
+padding: 0.45rem 1rem;
+background-color: #ed1864;
+color: white;
+font-weight: bold !important;
+border: none;
+margin:0  0.5rem 0 0;
+border-radius: 5px;
+}
+ @media screen and (max-width: 992px) {
+
+
+    .carousel-control-next-icon button{
+      display: none;
+    }
+
+    .carousel span{
+      display: none;
+    }
+
+    .carousel span{
+      display: none;
+    }
+
+
+  
+}
+
+@media screen and (max-width: 700px) {
+
+
+  .carousel-control-next-icon button{
+    display: none;
+  }
+
+  .carousel span{
+    display: none;
+  }
+
+  .carousel span{
+    display: none;
+  }
+  .mediahight{
+    display: none;
+  }
+
+  .mediahight1{
+    display: block;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 638px) {
+  .carousel-caption {
+    position: absolute;
+    top: 22% !important;
+    bottom: 1.25rem;
+    left: 7% !important;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  
+.carousel-caption h3{
+  text-align: left !important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+  font-size: 1.5rem;
+  max-width:100%;
+  
+  
+  }
+  
+  .carousel-caption p{
+    text-align: left !important;
+    text-transform: capitalize !important;
+    font-weight: 500 !important;
+    line-height: normal !important;
+    font-size: 1rem;
+    max-width: 100%;
+    
+    
+    }
+}

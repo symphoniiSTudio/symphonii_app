@@ -1,0 +1,64 @@
+/* {grad parent div} this the background image */
+.bannercontainer1{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+}
+
+.bannermain1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-top: 3rem;
+    padding: 7rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.bannermain1 p{
+    padding-top: 2rem;
+}
+/* 
+i remove the position absolute becouse, if i make parent div absolute.. it will not show again */
+.bd1{
+    background-color: #3e3e3ea3;
+    padding-bottom: 2rem;
+    /* position: absolute;
+    top: 0;
+    z-index: 10px; */
+}
+
+    
+
+
+.bannermain1{
+    
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+@media screen and (max-width: 992px) {
+    .bannermain1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-transform: uppercase;
+        padding-top: 3rem;
+        padding: 4rem;
+        color: white;
+    
+    
+    }
+
+    .bannermain1 p{
+        padding-top: 2rem;
+    }
+
+}
+

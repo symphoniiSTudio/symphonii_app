@@ -1,0 +1,204 @@
+.banner{
+  width: 100%;
+  background-color: #ed1846;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.imageside{
+  padding: 1rem;
+
+}
+
+.comicinformation{
+  padding-left: 3rem;
+  line-height: 2rem;
+}
+
+.imageside img{
+  height: 40vh;
+  object-fit: cover;
+  border-radius: 30px;
+ 
+
+}
+
+.mediaimg111{
+  color:white;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.mediaimg111 a{
+  color:white;
+  font-size: 1.5rem;
+
+}
+
+.mediaimg111:hover a{
+  color:white;
+  font-size: 1.5rem;
+
+}
+
+.carrislap{
+  width: 97%;
+
+}
+.slapcontainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  border: 1px solid #ed1864;
+  gap: 5px;
+
+
+}
+.thiswor{
+  background-color: #111111;
+  color: white;
+  position: relative;
+
+
+}
+
+.s a{
+  text-decoration: none;
+  color: white;
+  
+}
+.opend{
+  color: white;
+  background-color: #585757;
+  padding: 0.5rem;
+  
+}
+.textsss{
+  background-color: #111111;
+  color: white;
+}
+.headtable{
+  background-color: #111111;
+}
+.textsss button{
+  border: none;
+  background-color: transparent;
+  font-size: 0.85rem;
+  color: white;
+}
+.hshhs{
+  font-size: 0.85rem;
+  color: white;
+  background-color: #111111;
+  text-align: center;
+}
+.descri{
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.descri h6{
+  font-size: 0.75rem;
+}
+.cob img{
+  height: 100vh;
+  width: 100%;
+}
+.flexatepoint{
+  display: grid;
+  grid-template-columns: 30% 70%;
+
+}
+
+.footer-icons1{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cob{
+  padding:0 0.47rem;
+  border: #ed1846 0 0.1px solid;
+  
+}
+
+
+@media screen and (max-width: 820px) {
+  .imageside img{
+    height: 30vh;
+ 
+  }
+  .carrislap{
+    width: 95%;
+    margin:  auto auto;
+   
+  }
+  .slapcontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+  
+  
+  }
+  
+  .cob img{
+    height: 80vh;
+    width: 100%;
+  }
+  .comicinformation{
+    padding-left: 3rem;
+    line-height: 1.5rem;
+  }
+ 
+}
+
+@media screen and (max-width: 610px) {
+  .imageside img{
+    height: 20vh;
+  }
+
+  .cob img{
+    height: 80vh;
+    width: 100%;
+  }
+
+  .flexatepoint{
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 1rem;
+  
+  }
+  .slapcontainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+  
+  
+  }
+
+  .comicinformation{
+    padding-left: 0 !important;
+    line-height: 1.5rem;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+.ds{
+  display: none;
+}
+
+
+.banner{
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.imageside img{
+  height: 40vh;
+
+}
+
+}

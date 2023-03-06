@@ -1,0 +1,54 @@
+.appAprent{
+    width: 100%;
+    padding: 1rem;
+}
+
+.appchild{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.childitem{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 90vh;
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.appAprent{
+    background-color: #111111;
+    color: white;
+}
+
+.childist button{
+    padding: 0.45rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ed1864;
+    color: white;
+
+}
+.childist span{
+  font-size: 1.5rem;
+  font-weight: 700;
+
+}
+
+.conatr{
+    text-align: start;
+    color: white;
+    padding: 1.2rem;
+}
+
+.childist:hover button{
+    border: 1px solid #ed1864;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    
+}

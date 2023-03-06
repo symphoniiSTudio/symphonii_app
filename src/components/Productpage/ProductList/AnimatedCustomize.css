@@ -1,0 +1,98 @@
+.anima{
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  background-color: #111111;
+}
+
+.animatedcntaainer{
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1.9rem;
+  padding-bottom: 1rem;
+}
+
+.countArea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.itemcontainer{
+  display: flex; 
+  align-items: center;
+}
+
+.countBuo button , .countbuttomIncrat button{
+  padding: 0.45rem 1rem;
+  background-color: #ed1864;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.cuntInput{
+  padding: 0.45rem  1rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 0 1rem;
+}
+
+.countArea{
+  border-left: #ed1864 1px solid ;
+  border-right: #ed1864 1px solid ;
+  margin: 0  1rem;
+}
+.itemsflex{
+  background-color: #e7e5e544;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  border-bottom: 1px solid #ed1864;
+}
+
+
+
+.itemcotaner{
+  display: flex;
+  align-items: center;
+ 
+}
+
+.cons{
+  display: flex;
+  margin: auto auto;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.showTodal span{
+  padding: 1rem 2rem;
+  border: 1px solid #ed1864;
+  color: white;
+  
+
+}
+
+.showTodal h5{
+  padding: 0.5rem 1.8rem;
+  background-color: #ed1864;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+
+@media screen and (max-width: 622px) {
+  .itemcotaner {
+    flex-direction: column;
+  }
+
+  .showTodal{
+    margin: 2rem 0;
+  }
+}

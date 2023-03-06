@@ -1,0 +1,239 @@
+
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    width: 100%;
+    background-color: white;
+    color: black;
+
+  }
+
+  .viewuserdetans{
+    background-color: white;
+    color: black;
+  }
+.usrinpit{
+ padding: 1rem 0 1rem 1rem;
+
+ text-align: center;
+ font-size: 1.3rem;
+ text-transform: capitalize;
+ font-weight: bold;
+ color: white;
+ 
+}
+.viewuserdetans{
+  padding: 0.5rem;
+}
+
+.viewuserdetans button{
+  padding: 0.45rem 1rem;
+  background-color: #ed1864;
+  columns: white;
+  border: none;
+  margin-right: 0.24rem;
+  border-radius: 5px;
+
+}
+.btn button{
+padding:0.6rem;
+background-color: #2f3b66;
+border-radius: 10px;
+border: none;
+color: white;
+text-decoration: none;
+margin: 0.25rem ;
+}
+.btn button > a{
+  text-decoration: none;
+  color: white;
+  }
+
+.headtable{
+  width: 100%;
+  margin:  auto auto;
+}
+
+.addexpende a{
+padding: 1rem;
+margin: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  background-color: #2f3b66;
+  width: fit-content;
+  border-radius: 10px;
+  text-decoration: none;
+
+
+}
+
+
+.addexpende:hover a{
+    color: #e7d366;
+  }
+
+.details{
+   text-transform: capitalize;
+   color: red;
+}
+  .adduser button{
+    padding: 0.75rem 0.8rem;
+    background-color: #2f3b66;
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+  }
+  .adduser:hover button{
+ 
+    background-color: #e7d366
+    
+  }
+
+  .usrinpit:focus input{
+    border: none;
+  }
+  .usrinpit input{
+    font-size: 0.65rem;
+    padding: 0.5rem;
+    color: black;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color:#2f3b6686;
+  }
+
+
+  th{
+      background-color: #2f3b66;
+      border: 1px solid white;
+      color: white;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid white;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+
+  .thiswor1{
+      overflow-x: auto;
+      color: #ed1864;
+      /* padding: 3rem 0; */
+  }
+
+  
+  .thiswor img{
+      height: 3rem;
+      border-radius: 15px;
+  }
+
+.textsss button{
+    border: none;
+    background-color: transparent;
+}
+
+.hshhs{
+    text-align: center;
+    font-size: 1rem;
+    color: red;
+}
+
+.thiswor td >button{
+  background-color: #2f3b66;
+  color: white;
+  border: none;
+  padding: 0.45rem 1rem;
+}
+
+details{
+  background-color: #2f3b66;
+  color: white;
+  border: none;
+  padding: 0.45rem 1rem;
+  margin: 0  1rem
+}
+
+
+.thiswor td >button:hover{
+  background-color: #e7d366;
+ 
+}
+
+
+  @media only screen and (max-width: 900px) {
+    .thiswor{
+       font-size: 0.65rem;
+    }
+  }
+
+
+  @media only screen and (max-width: 700px) {
+   
+  .headtable{
+    width: 100%;
+    margin:  auto auto;
+  }
+  tr:nth-child(even){
+    background-color: #f2f2f2;
+    font-size: 1.2rem;
+  
+  
+  }
+  }
+
+
+/* 
+.heiimg {
+    height: 3rem;
+}
+
+.clhead{
+    background-color: #009987;
+   
+}
+
+.manita{
+    margin-top: 3rem;
+    overflow-x: auto;
+}
+
+
+  .table-content{
+      border-collapse: collapse;
+      margin: 25px  0;
+      font-size: 0.9;
+      min-width: 400px
+  }
+
+  .table-content img{
+      height: 3rem;
+  }
+
+  .table-content thead tr{
+     background-color: #009987;
+     color: white;
+     text-align: left;
+     font-weight: bold;
+
+  }
+
+  .table-content  th, .table-content td{
+      padding: 12px 15px;
+  }
+
+
+  @media only screen and (max-width: 900px) {
+    .hiden{
+      display: none;
+    }
+  } */
+
+  
+

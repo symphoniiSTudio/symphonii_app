@@ -1,0 +1,164 @@
+.staffcontainer {
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+  
+  .staffcontent {
+    width: 90%;
+    margin: auto auto;
+  }
+  .staffitems {
+    background-color: #3e3e3e;
+    width: 100%;
+    padding-right: 3rem;
+  }
+  
+  .stavecarry {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .staffitems a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .staffrole {
+      display: grid;
+      grid-template-columns: repeat(1, 3fr);
+      padding-left: 0.4rem;
+  }
+  .staffbody {
+    padding: 3rem 0 1rem 3rem;
+  }
+  
+  .staffheader p {
+    padding-bottom: 1.5rem;
+  }
+  
+  .staffheader h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2rem;
+  }
+  
+  .staffheader p {
+    color: #ed1846;
+  }
+  .staffimage {
+    height: 6.5rem;
+  }
+  .staffimage img {
+    height: 6.5rem;
+  }
+  
+  .arrow img {
+    height: 2rem;
+    display: none;
+  }
+  .staffdetails {
+    display: flex;
+  }
+  
+  .sypmphoniiname {
+    display: flex;
+    align-items: flex-end;
+  }
+  .sypmphoniiposition {
+    font-weight: lighter;
+    color: #ed1846;
+  }
+  
+  .staffitems:hover {
+    background-color: #ed1846;
+  }
+  
+
+  .staffitems:hover .arrow img {
+    display: block;
+  }
+  
+  .staffitems:hover .staffheader p {
+    color: #3e3e3e;
+  }
+  
+  .staffitems:hover .sypmphoniiposition {
+    color: black;
+  }
+
+  .bodyflexcontainr{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      background-color: #111111;
+      color: white;
+  }
+
+  .carousel-indicators button{
+    display: none;
+  }
+
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none;
+  }
+
+  .modal{
+      background: #1111119d !important;
+  }
+  .modal-header{
+    background: #1111119d !important;
+    border-bottom: none !important;
+  }
+
+  .closebttn{
+      background-color:#111111 !important;
+font-size: 2rem;
+    padding: 0 1rem;
+      text-align: end;
+      color: white;
+  }
+
+
+  .modal-body{
+      background-color: #111111cc;
+      padding:0 !important;
+      border: none !important;
+  }
+  .imagesecl img{
+    height: 80vh;
+    width: 100%;
+ 
+  }
+  
+  @media screen and (max-width: 992px) {
+      .stavecarry {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px;
+        }
+  
+  }
+  
+  @media screen and (max-width: 605px) {
+      .stavecarry {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          gap: 10px;
+          
+        }
+  
+        .staffitems{
+            width: 100%;
+        }
+
+        
+  .bodyflexcontainr{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+
+}
+  
+  }

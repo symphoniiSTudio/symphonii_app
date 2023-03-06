@@ -1,0 +1,144 @@
+.ourprocessconatiner{
+    width: 95%;
+    margin: auto auto;
+    padding: 3rem 0;
+   
+
+}
+
+.did111{
+    background: #111111e1;
+
+}
+
+.ourprocessheader{
+    text-align: start;
+    padding: 0  2rem 2rem;
+    
+}
+
+.ourservicehea{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    padding: 0 0 1rem 0;
+    font-weight: bolder;
+}
+
+.reactsh11{
+    line-height: 2rem 1rem; 
+}
+
+.did111 a{
+    text-decoration: none;
+    color: white;
+}
+
+.ourprocessdiv{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+.ourserviceheader{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 3rem;
+
+}
+
+.ourbrief , .ourconcept , .oursolution {
+    padding-top: 3rem;
+    
+}
+
+
+.ourprocessmain{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: row;
+    gap:10px;
+
+    
+}
+
+.btncalss{
+    margin-top: 2rem;
+}
+
+
+
+.ourbrief:hover {
+    background-color: #ed1846;
+}
+
+.ourconcept:hover {
+    background-color: #ed1846;
+}
+
+.oursolution:hover {
+    background-color: #ed1846;
+}
+
+.ourprocessdiv button{
+    padding: 1rem 3rem;
+    background-color: #ed1846;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    
+}
+
+
+
+.ourprocessconatiner{
+    text-align: center;
+   
+}
+
+
+.ourbrief h1, .ourconcept h1, .oursolution  h1{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: start !important;
+    
+}
+
+
+.ourbrief p, .ourconcept p, .oursolution  p{
+   padding-top: 1rem;
+   text-align: start !important;
+    
+}
+
+
+
+  
+@media screen and (max-width: 920px) {
+    .ourprocessmain{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-flow: row;
+        gap:10px;
+    }
+
+    .ourserviceheader{
+        padding: 3rem 0;
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    
+    }
+
+    .ourserviceheader{
+        padding: 0rem !important;
+    
+    }
+
+}

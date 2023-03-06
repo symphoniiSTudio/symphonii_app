@@ -1,0 +1,61 @@
+.clentarea{
+width: 100%;
+background-color: #ed1846;
+padding: 1rem 0;
+}
+
+.clientcontinerlogo{
+    width: 90%;
+    margin:  auto auto;
+    text-align: center;
+    padding: 3rem;
+    
+}
+
+.allclientLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+
+.clientcontinerlogo p{
+    font-weight: bolder;
+    color: black;
+    text-transform:uppercase;
+    padding: 3rem 0;
+    font-size: 2rem;
+    font-weight:bolder;
+    color: white;
+
+}
+
+.allclientLogo{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 3rem;
+ }
+
+.logo1 img{
+    height: 7rem;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+    .clientcontinerlogo p{
+        padding: 2rem 0;
+        font-size: 2rem;
+    }
+
+    .clientcontinerlogo{
+       text-align: center;
+        padding: 2rem;
+        font-size: 2rem;
+        font-weight:bolder;
+        
+    }
+}

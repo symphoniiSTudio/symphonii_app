@@ -1,0 +1,27 @@
+.contactusparent{
+    width: 100%;
+
+}
+.contacttiti{
+    text-align: center;
+    padding: 2rem;
+    background-color: #3d3d3f;
+    border-top: 1px solid white;
+    font-size: 2.5rem;
+    font-weight:bold;
+    color: white;
+
+}
+
+.contactdetails{
+    font-weight: lighter;
+}
+
+.contactdetails h3{
+   color: #ed1846;
+   text-transform: capitalize;
+   font-weight: 700;
+}
+
+
+

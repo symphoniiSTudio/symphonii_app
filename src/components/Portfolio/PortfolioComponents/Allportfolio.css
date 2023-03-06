@@ -1,0 +1,236 @@
+.serviceitemheader{
+    background-color: black;
+    width: 100%;
+}
+.servicetitle11{
+    background-color: rgba(0, 0, 0, 0.897);
+    height: 90vh;
+   
+}
+
+.sheaderitem{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+    color: #818181;
+}
+
+.sheaderitem a{
+   text-decoration: none;
+   color: #818181;
+}
+
+.sheaderitem:hover a{
+      color: white;
+      text-decoration: none;
+ }
+
+.All{
+    padding: 1rem;
+    color: #9b9b9b;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.Aniimation{
+    padding: 1rem;
+    color: #9b9b9b;
+    font-weight: 600;
+    text-transform: capitalize,
+}
+.Illustration{
+    padding: 1rem;
+    color: #9b9b9b;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.BrandDesign{
+    padding: 1rem;
+    color: #9b9b9b;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.All:hover {
+    border: 1px solid #ed1846;
+    
+}
+.Aniimation:hover {
+    border: 1px solid #ed1846;
+    color: white;
+    
+}
+.Illustration:hover {
+    border: 1px solid #ed1846;
+    color: white;
+    
+}
+.BrandDesign:hover {
+    border: 1px solid #ed1846;
+    color: white;
+}
+
+.filteritem select{
+    width: 70%;
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    border: 1px solid #ed1846;
+    border-radius: 5px;   
+}
+
+#myoption option {
+padding: 0.5rem;
+background-color: #ed1846;
+border: 1px solid white;
+
+}
+
+.filteritem{
+    display: none;
+}
+
+.ourprocessdiv{
+    width: 100%;
+    color: white;
+}
+
+.ourprocessconatiner{
+    width: 95%;
+    margin: auto auto;
+}
+
+.ourbrief, .ourconcept, .oursolution{
+   padding: 3rem;
+   background-color: #3e3e3f;
+    
+}
+
+.ourserviceheader{
+    padding-left: 6rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
+
+
+.ourbrief h1, .ourconcept h1, .oursolution  h1{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    
+}
+
+
+.ourbrief p, .ourconcept p, .oursolution  p{
+   padding-top: 1rem;
+    
+}
+
+
+
+.ourbrief:hover {
+    background-color: #ed1846;
+}
+
+.ourconcept:hover {
+    background-color: #ed1846;
+}
+
+.oursolution:hover {
+    background-color: #ed1846;
+}
+
+.testcourasel{
+    text-align: center;
+   
+}
+
+.testimonysection{
+    width: 100%;
+    background-color: #3e3e3f;
+    color: white;
+}
+
+.testimonysectio:hover{
+    width: 100%;
+    background-color: #3e3e3f;
+    color: white;
+}
+
+.testimonycontainer{
+    width: 70%;
+    margin: auto auto;
+    padding: 2rem;
+}
+
+.carousel-control-next-icon{
+    display: none;
+}
+
+.carousel-control-prev-icon{
+    display: none;
+}
+
+.carousel-indicators{
+    display: none;
+}
+
+.couraselimage img{
+    border-radius: 50px;
+    height: 8rem;
+}
+
+.nametext{
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+
+
+  
+@media screen and (max-width: 920px) {
+    .filteritem {
+
+       display: block;
+       padding: 1rem;
+      
+    }
+
+    .sheaderitem{
+        display: none;
+    }
+
+    .ourprocessmain{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-flow: row;
+        gap:10px;
+        
+    }
+
+    .ourserviceheader{
+      
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-size: 1.5rem;
+        font-weight: bolder;
+
+    
+    }
+    .testimonycontainer{
+        width: 90%;
+        margin: auto auto;
+        padding: 2rem;
+    }
+  }
+
+
+
+
+
+  

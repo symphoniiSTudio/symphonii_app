@@ -1,0 +1,40 @@
+.viewsinclecomic{
+    background-color: #111111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}  
+
+.comicocnt{
+    height: 100vh;
+ 
+}
+.imagesid img{
+    height: 90vh;   
+}
+
+
+
+.dhd{
+border: none;
+background-color: #ed1864;
+color: white;
+border-radius: 8px;
+padding: 0.25rem 1rem;
+text-align: center;
+margin: 0 0.5rem;
+}
+.lick{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.dhd{
+    margin-left: 0.24rem;
+}
+.dhd:hover{
+background-color: transparent;
+border: 1px solid #ed1864 ;
+}

@@ -1,0 +1,35 @@
+.contolermain{
+    width: 100%;
+    background-color: #444444;
+    color: white;
+    padding: 1rem;
+}
+
+.namede img, .logoside img{
+    height: 8vh;
+}
+
+.comtroerparnen{
+    display: flex;
+    justify-content: space-between;
+}
+.adminimage{
+    display: flex;
+    align-items: center;
+   
+}
+.sn{
+    padding: 0 1rem;
+}
+
+.items11 button{
+    background-color: transparent;
+    color: #ed1864;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.logoside1 img{
+    height: 10vh;
+}
+

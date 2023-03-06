@@ -1,0 +1,134 @@
+.textare {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ourbodymain1 {
+  background-color: #3084a30e;
+}
+.gridpeople1 a{
+	text-decoration: none;
+	color: white;
+}
+
+.pourselfd:hover{
+	color: #ed1864;
+}
+
+
+.gridpeople1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+   background-color: #000000;
+}
+
+.gridpeople {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+.cnteourpoep {
+  background-color: #3084a30e;
+  height: 90vh;
+}
+
+.pourselfd p > strong {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.pourselfd p > span {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.textare {
+  position: relative;
+}
+.cnteourpoep h2 {
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+}
+
+.cnteourpoep h2 > span {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.cnteourpoep p {
+  display: none;
+}
+
+.cnteourpoep:hover {
+  background-color: #11111146;
+}
+
+.cnteourpoep h2 > strong {
+  font-weight: lighter;
+  padding: 0.45rem;
+  margin: 0.54rem;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+}
+.cnteourpoep:hover p {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+  transition: all 0.8s ease-in;
+}
+.cnteourpoep:hover h2 {
+  display: none;
+}
+
+.discomicImage{
+  display: flex;
+  justify-content: center;
+  background-color: #111111;
+ 
+}
+
+.discomicImage a{
+  text-decoration: none;
+}
+
+.disimagecomic img{
+  width: 100%;
+}
+
+.disimagecomic{
+  width: 70%;
+  margin:  auto auto;
+}
+
+.pourselfd1{
+  background-color: #6b4582;
+  color: white;
+  padding: 0.5rem;
+}
+
+
+@media screen and (max-width: 950px) {
+  .grid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .gridpeople {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gridpeople {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+  }
+}

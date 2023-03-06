@@ -1,0 +1,71 @@
+.homevalueparent{
+    width: 100%;
+    background-color: #1d1d1d;
+    text-align: start;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 2rem 1.5rem;   
+}
+
+.homeparentitem{
+    width: 80%;
+    margin: auto auto;
+}
+
+.homevalueheader{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+
+.homevaluedetails {
+    font-size: 1.5rem;
+}
+.homevaluedetails h1{
+    color: #ed1846;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+.homevaluedetails p{
+    font-size: 1rem;
+}
+
+.homevaluedetails p > span{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+
+.centeweeace{
+    color: #ed1846;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 602px) {
+ 
+    .homevalueheader{
+        font-size: 2rem !important;
+    
+    }
+
+    .homeparentitem{
+        width: 95%;
+        margin: auto auto;
+    }
+    .homevaluedetails {
+        font-size: 1.5rem;
+    }
+
+    }
+
+    
+@media screen and (max-width: 500px) {
+    .homevaluedetails {
+        font-size: 1rem;
+       padding-right: 1.5rem;
+    }
+
+}
